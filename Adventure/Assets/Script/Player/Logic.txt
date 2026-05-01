@@ -1,0 +1,9 @@
+CharController controls the player
+
+fullgravity makes sure the player is drawn to the planet. 
+
+
+player is a singleton meaning its unique.
+always knows the planet its on. all system get the residential planet interating with it.
+
+

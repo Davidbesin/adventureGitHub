@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2528884b7e7574b8001c8baab7965f, type: 3}
+  m_Name: PlayerVault
+  m_EditorClassIdentifier: Assembly-CSharp::PlayersInventory
+  playersResources:
+  - {fileID: 11400000, guid: ff32796cb3160c545832d95f6f8601dd, type: 2}
+  - {fileID: 11400000, guid: 3e57583345b90c34ebc3d4c588502f7d, type: 2}
+  - {fileID: 11400000, guid: 72cb9c0320a67d44c9e2eeb489ecf78c, type: 2}
+  - {fileID: 11400000, guid: b267309bd96224448964d85026cce796, type: 2}
+  - {fileID: 11400000, guid: 3a01de9123e7e714a81f75d0c857ef93, type: 2}
+  - {fileID: 11400000, guid: 549d9dc007509ea468fc7f9ab5208e08, type: 2}
+  - {fileID: 11400000, guid: 0ec9b6754cd7c534d8f45d8b3bae0c6b, type: 2}
+  - {fileID: 11400000, guid: 68bbff89c844ac54884ed4f664dd7ecd, type: 2}
+  - {fileID: 11400000, guid: cc01d60eb66645a4784259b599466a0a, type: 2}
+  canAddResources: 1

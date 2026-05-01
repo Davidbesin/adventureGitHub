@@ -1,0 +1,14 @@
+Base resources 
+
+stores amount.
+stores max amount it can have. 
+
+just the base for all resources
+
+Mine.
+
+resource ggenerator. limited to what the planet has.// not done that yet. 
+has regeneration rate
+has level 
+has health for destruction.
+has amount and max amount.

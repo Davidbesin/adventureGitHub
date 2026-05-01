@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2528884b7e7574b8001c8baab7965f, type: 3}
+  m_Name: PlayerBag
+  m_EditorClassIdentifier: Assembly-CSharp::PlayersInventory
+  playersResources:
+  - {fileID: 11400000, guid: 6c548f493cb1f2344baba3ee31cc5914, type: 2}
+  - {fileID: 11400000, guid: c92c43a52eb641a419090db3b8154996, type: 2}
+  - {fileID: 11400000, guid: 0029a2fa7928d3540a3bf2e85678dfee, type: 2}
+  - {fileID: 11400000, guid: 65c7de7ab715a2f4dace0404eaf8363c, type: 2}
+  - {fileID: 11400000, guid: b8e65f641cb75504482306801e07232b, type: 2}
+  - {fileID: 11400000, guid: 51c047404e975434c90f639c2b064211, type: 2}
+  - {fileID: 11400000, guid: a7409b47e078994429746056830f0339, type: 2}
+  - {fileID: 11400000, guid: 8558ac46b3f21ac45929f674350fb916, type: 2}
+  - {fileID: 11400000, guid: 8558ac46b3f21ac45929f674350fb916, type: 2}

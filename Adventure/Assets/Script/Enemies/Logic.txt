@@ -1,0 +1,2 @@
+has health and moves towards player. nothing yet beyond that. just a plan. nothing else
+

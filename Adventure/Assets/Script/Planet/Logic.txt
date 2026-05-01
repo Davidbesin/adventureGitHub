@@ -1,0 +1,13 @@
+Gravity Attractor. Every planets component. Attracts player to the center. can be expanded to includde other things. 
+iwaveCotributor.  A contract shared betwween all components that would be able to increase enemy wave
+
+planet. The core of this system.
+has alist of base resources that  is allowed on itself. 
+has alist of the contributors to its waves. 
+stores the wave strength
+creates a function that invites all wave contributor to join.
+recalculates if someone joins.
+crates a function that also allows the wave contributor to goincase of being destroyed.
+
+function that alerts the player to the current planet
+

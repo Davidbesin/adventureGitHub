@@ -1,0 +1,26 @@
+stages:
+  - build
+  - analyze
+
+build_unity:
+  stage: build
+  image: gameci/unity:2021.3.5f1 # Unity Docker image
+  script:
+    - echo "Building Unity project"
+    - unity -batchmode -nographics -quit -projectPath . -buildTarget Win64
+  artifacts:
+    paths:
+      - Builds/
+
+sonarcloud_analysis:
+  stage: analyze
+  image: mcr.microsoft.com/dotnet/sdk:6.0
+  script:
+    - dotnet tool install --global dotnet-sonarscanner
+    - export PATH="$PATH:/root/.dotnet/tools"
+    - dotnet sonarscanner begin /k:"your_project_key" /d:sonar.login="$SONAR_TOKEN" /d:sonar.host.url="$SONAR_HOST_URL"
+    - dotnet build
+    - dotnet sonarscanner end /d:sonar.login="$SONAR_TOKEN"
+  only:
+    - main
+    - merge_request

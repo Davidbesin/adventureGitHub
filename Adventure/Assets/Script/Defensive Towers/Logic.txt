@@ -1,0 +1,11 @@
+The base of all defensive towers.
+
+they check for enemies
+they have a level
+//float typeMultiplayer is going to be in between 1 and 2. some towers might bring more enemies. if its 1 then its a n0rmal tower. 2 is worth 2 normal tower.   Just an idea
+
+onenable is for the creation of the defensive tower. it reads the planet the player is on and joins the list for calculating wave//potential bug. i should store this planet. will do so later
+ondisable is for the destructioin. removes from the list of wave calculation
+
+the tower level determines the wave calculation. basically 2+2+1+4+8 etc etc
+
