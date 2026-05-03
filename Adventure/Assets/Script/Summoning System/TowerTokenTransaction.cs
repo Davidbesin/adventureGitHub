@@ -6,6 +6,7 @@ public class TowerTokenTransaction : MonoBehaviour, ITransact
 {
     public List<TransactionItem> spendRequirements = new();
     public static List<TowerToken> towerTokenList = new();
+    [SerializeField]int tokenCount;
     public bool HasBought { get; private set; }
     public bool AutoTransact => false;
 
@@ -19,6 +20,7 @@ public class TowerTokenTransaction : MonoBehaviour, ITransact
 
     [Tooltip("Player second bigger inventory reference.")]
     public PlayersInventory playerVault;
+
 
     public void BuyTowerToken()
     {
@@ -74,5 +76,6 @@ public class TowerTokenTransaction : MonoBehaviour, ITransact
     private void Update()
     {
         //Debug.Log($"TowerToken count: {towerTokenList.Count}");
+        tokenCount = towerTokenList.Count;
     }
 }

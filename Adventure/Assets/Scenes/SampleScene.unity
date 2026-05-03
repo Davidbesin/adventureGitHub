@@ -3076,6 +3076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361091121}
   - component: {fileID: 361091120}
+  - component: {fileID: 361091122}
   m_Layer: 0
   m_Name: MiningRateManager
   m_TagString: Untagged
@@ -3137,6 +3138,18 @@ Transform:
   - {fileID: 1458702098}
   m_Father: {fileID: 1544643479}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &361091122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361091119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005ca6f1719341c4abfb21811551fec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnRateSave
 --- !u!1 &374975055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1626191443950858870, guid: ede98e1e9131f1b4dad5ee105c0f09e0, type: 3}
@@ -11790,6 +11803,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1654661453848188322, guid: bb45f23b290f33847ad011971db5cab9, type: 3}
+      propertyPath: resourceType
+      value: 
+      objectReference: {fileID: 11400000, guid: ccfbc2ab33a0b394c896bd0dac99e01a, type: 2}
+    - target: {fileID: 1654661453848188322, guid: bb45f23b290f33847ad011971db5cab9, type: 3}
       propertyPath: baseRegenRate
       value: 0.01
       objectReference: {fileID: 0}
@@ -12766,11 +12783,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a475e5ea1b8fb8e46b99b2daddb8ddce, type: 2}
   - {fileID: 11400000, guid: ccfbc2ab33a0b394c896bd0dac99e01a, type: 2}
   - {fileID: 11400000, guid: d69703f49ef0c164b9a37c7aaa5a26cd, type: 2}
-  - {fileID: 11400000, guid: 3a01de9123e7e714a81f75d0c857ef93, type: 2}
-  - {fileID: 11400000, guid: 51c047404e975434c90f639c2b064211, type: 2}
-  - {fileID: 11400000, guid: 0ec9b6754cd7c534d8f45d8b3bae0c6b, type: 2}
-  - {fileID: 11400000, guid: 68bbff89c844ac54884ed4f664dd7ecd, type: 2}
-  - {fileID: 11400000, guid: ddc12c36c1295b44ebe7ac72b9812a3c, type: 2}
+  - {fileID: 11400000, guid: c71b5b8c141b3e84e8da8f6fb4091a06, type: 2}
+  - {fileID: 11400000, guid: c659f080dab64044c9bbf5f7a5c13e26, type: 2}
+  - {fileID: 11400000, guid: a47ac12f670a48a47a500122ab940866, type: 2}
+  - {fileID: 11400000, guid: 2f8c0a3599685fb419c2e6771b7432be, type: 2}
+  - {fileID: 11400000, guid: 578f7c43034ca7d4286aaaea5aaa00e6, type: 2}
 --- !u!4 &1258440970
 Transform:
   m_ObjectHideFlags: 0
@@ -16395,6 +16412,10 @@ PrefabInstance:
       propertyPath: nextUnlock
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1654661453848188322, guid: bb45f23b290f33847ad011971db5cab9, type: 3}
+      propertyPath: resourceType
+      value: 
+      objectReference: {fileID: 11400000, guid: ccfbc2ab33a0b394c896bd0dac99e01a, type: 2}
     - target: {fileID: 1654661453848188322, guid: bb45f23b290f33847ad011971db5cab9, type: 3}
       propertyPath: baseRegenRate
       value: 0.01

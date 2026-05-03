@@ -36,7 +36,7 @@ public class Mine : MonoBehaviour, IHealth
     public UpgradeableStatInterface Upgradeablehealth => upgradeablehealth;
     public UpgradeableStatInterface UpgradeableRegenhealth => upgradeableRegenhealth;
 
-
+    public bool PlayerSide => false;
     private void Awake()
     {
         MineAmount = mineMaxAmount;

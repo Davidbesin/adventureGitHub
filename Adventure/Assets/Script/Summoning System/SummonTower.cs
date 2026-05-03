@@ -8,8 +8,14 @@ public class SummonTower : MonoBehaviour
     public void SummonAttackTower()
     {
         if (!SummonManager.Instance.NextAllowed) return;
-        Instantiate(tower);
-        SummonManager.Instance.AllowedStatus(false);
+        if (TowerTokenTransaction.towerTokenList.Count > 0)
+        {
+            TowerTokenTransaction.towerTokenList.RemoveAt(0); 
+            Instantiate(tower);
+            SummonManager.Instance.AllowedStatus(false);
+        }
+
+       
     }
 
 }
