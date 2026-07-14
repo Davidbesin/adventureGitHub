@@ -13,9 +13,7 @@ public class SummonTower : MonoBehaviour
             TowerTokenTransaction.towerTokenList.RemoveAt(0); 
             Instantiate(tower);
             SummonManager.Instance.AllowedStatus(false);
-        }
-
-       
+        }     
     }
 
 }
